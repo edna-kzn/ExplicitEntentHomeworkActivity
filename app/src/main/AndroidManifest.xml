@@ -2,7 +2,8 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.kazarian.android.explicitententhomeworkactivity">
 
-    <uses-permission android:name="android.permission.CAMERA"/>
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.CALL_PHONE"/>
 
     <application
         android:allowBackup="true"
@@ -11,23 +12,24 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ExplicitEntentHomeworkActivity">
-        <activity android:name=".TestPermisionActivity"></activity>
-        <activity android:name=".TestKebabMenueActivity">
-        </activity>
-        <activity android:name=".TestNotificationActivity" />
-        <activity android:name=".TestSharedPrefrencesActivity" />
-        <activity
-            android:name=".TestDialogThemeActivity"
-            android:theme="@style/Theme.AppCompat.Light.Dialog" />
-        <activity android:name=".TestDialogActivity"></activity>
-        <activity android:name=".MainActivityTemp" />
-        <activity android:name=".SecondActivity" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".CallTestActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity android:name=".TestPermisionActivity" />
+        <activity android:name=".TestKebabMenueActivity"></activity>
+        <activity android:name=".TestNotificationActivity" />
+        <activity android:name=".TestSharedPrefrencesActivity" />
+        <activity
+            android:name=".TestDialogThemeActivity"
+            android:theme="@style/Theme.AppCompat.Light.Dialog" />
+        <activity android:name=".TestDialogActivity" />
+        <activity android:name=".MainActivityTemp" />
+        <activity android:name=".SecondActivity" />
+        <activity android:name=".MainActivity">
         </activity>
     </application>
 
