@@ -3,7 +3,8 @@
     package="com.kazarian.android.explicitententhomeworkactivity">
 
     <uses-permission android:name="android.permission.CAMERA" />
-    <uses-permission android:name="android.permission.CALL_PHONE"/>
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.READ_CONTACTS"/>
 
     <application
         android:allowBackup="true"
@@ -12,15 +13,17 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.ExplicitEntentHomeworkActivity">
-        <activity android:name=".CallTestActivity">
+        <activity android:name=".KebabMenuHomeworkActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".CallTestActivity">
+        </activity>
         <activity android:name=".TestPermisionActivity" />
-        <activity android:name=".TestKebabMenueActivity"></activity>
+        <activity android:name=".TestKebabMenueActivity" />
         <activity android:name=".TestNotificationActivity" />
         <activity android:name=".TestSharedPrefrencesActivity" />
         <activity
@@ -29,8 +32,7 @@
         <activity android:name=".TestDialogActivity" />
         <activity android:name=".MainActivityTemp" />
         <activity android:name=".SecondActivity" />
-        <activity android:name=".MainActivity">
-        </activity>
+        <activity android:name=".MainActivity"></activity>
     </application>
 
 </manifest>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:id="@+id/First_intent_with_setresult"
+        android:title="Intent with setResult"/>
+
+    <item android:id="@+id/Second_implicite_open_dial"
+        android:title="Implicit dial"/>
+
+    <item android:id="@+id/Third_notification"
+        android:title="Notification"/>
+
+    <item android:id="@+id/Forth_get_contact_permision"
+        android:title="Get Contact Permision"/>
+
+</menu>
